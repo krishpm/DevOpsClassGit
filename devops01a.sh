@@ -1,4 +1,4 @@
-##Assignment 00: Bash, Git, and GitHub
+##Assignment 00: Bash, Git, and GitHub -devops01a.sh file
 
 echo "number of volumes, size of each volume"
 fdisk -l

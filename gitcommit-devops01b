@@ -1,0 +1,25 @@
+root@ubuntu-sas:/home/pkrishnamurthy/DevOps01# git add .
+root@ubuntu-sas:/home/pkrishnamurthy/DevOps01# git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   devops01b.sh
+
+root@ubuntu-sas:/home/pkrishnamurthy/DevOps01# git commit -m "Add info for no args supplied case"
+[master 26dc7a6] Add info for no args supplied case
+ 1 file changed, 7 insertions(+)
+root@ubuntu-sas:/home/pkrishnamurthy/DevOps01# git push -u origin master
+Username for 'https://github.com': krishpm
+Password for 'https://krishpm@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 498 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/krishpm/DevOpsClassGit.git
+   885df8f..26dc7a6  master -> master
+Branch master set up to track remote branch master from origin.
+
