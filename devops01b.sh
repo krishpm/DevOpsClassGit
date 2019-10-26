@@ -3,6 +3,13 @@
 if [ $# -eq 0 ]
   then
     echo "No arguments supplied"
+    echo "Usage: ./devops01b.sh <arg>"
+    echo "Arguments can be:"
+    echo "-volumes : reports the number of volumes and size of each volume"
+    echo "-cpu     : reports the number of cpus/cores"
+    echo "-ram     : reports amount of RAM"
+    echo "-network : reports the ipaddress and mac address"
+    echo "-all     : reports all the above information"
     exit 1
 fi
 
